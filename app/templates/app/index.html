@@ -1,0 +1,51 @@
+{% extends "app/base_template.html" %}
+{% load static%}
+
+{% block index %}
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    {% include "app/header.html" %}
+    <!-- end s-header -->
+
+    <!-- home
+    ================================================== -->
+    {% include "app/home.html" %}
+    <!-- end s-home -->
+
+    <!-- about
+    ================================================== -->
+    {% include "app/about.html" %}
+    <!-- end about -->
+    
+    <!-- works
+    ================================================== -->
+    {% include "app/works.html" %}
+    <!-- end works -->
+
+    <!-- testimonials
+    ================================================== -->
+    {% include "app/testimonials.html" %}
+    <!-- end s-testimonials -->
+
+    <!-- blog
+    ================================================== -->
+    {% include "app/blog2.html" %}
+    <!-- end s-blog -->
+
+    <!-- s-stats
+    ================================================== -->
+    <!-- end s-stats -->
+
+    <!-- s-contact
+    ================================================== -->
+    {% include "app/contact.html" %}
+    <!-- end s-contact -->
+
+    <!-- footer
+    ================================================== -->
+    {% include "app/footer.html" %}
+    <!-- end footer -->
+    
+{% endblock %}
