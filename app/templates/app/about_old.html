@@ -1,21 +1,9 @@
-{% load static %}
-<style>
-    .tech_icons{
-        width: 60px;
-        height: 60px;
-        margin-right: 10px;
-        margin-bottom: 20px;
-    }
-    .tech_list{
-        list-style: none;
-    }
-</style>
 <section id="about" class="s-about target-section">
         
     <div class="row narrow section-intro has-bottom-sep">
         <div class="col-full text-center">
             <h3>About</h3>
-            <h1>¿Quién soy?</h1>
+            <h1>More About Me</h1>
             <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
         </div>
     </div>
@@ -23,7 +11,7 @@
     <div class="row about-content">
 
         <div class="col-six tab-full left">
-            <h3>Mi historia📈</h3>
+            <h3>Howdy!</h3>
 
             <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
 
@@ -33,53 +21,37 @@
         </div>
 
         <div class="col-six tab-full right">
-            <h3>Algunos de mis conocimientos 🧠</h3>
+            <h3>I've Got Some skills.</h3>
 
-            <ul class="tech_list">
+            <ul class="skill-bars">
                 <li>
-                    <strong>Lenguajes</strong><br>
-
-                    <img src="{% static 'app/img/icons/csharp.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/python.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/java.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/html.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/css.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/js.png' %}" alt="C#" class="tech_icons">
-                    
-
+                <div class="progress percent90"><span>90%</span></div>
+                <strong>HTML5</strong>
                 </li>
-                
                 <li>
-                    <strong>FrameWorks</strong><br>
-                    <img src="{% static 'app/img/icons/.net.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/django.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/bootstrap.png' %}" alt="C#" class="tech_icons">
-                
-                <li>
-
-                <li>
-                    <strong>Bases de datos</strong><br>
-                    <img src="{% static 'app/img/icons/SQL.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/sqlserver.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/sqlite.svg' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/oracle.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/mysql.png' %}" alt="C#" class="tech_icons">
-
+                <div class="progress percent85"><span>85%</span></div>
+                <strong>CSS3</strong>
                 </li>
-
                 <li>
-                    <strong>Control de versiones y flujo de trabajo</strong><br>
-                    <img src="{% static 'app/img/icons/git.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/github.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/azure.png' %}" alt="C#" class="tech_icons">
-                    <img src="{% static 'app/img/icons/jira.png' %}" alt="C#" class="tech_icons">
-                
+                <div class="progress percent70"><span>70%</span></div>
+                <strong>JQuery</strong>
+                </li>
                 <li>
-    
+                <div class="progress percent95"><span>95%</span></div>
+                <strong>PHP</strong>
+                </li>
+                <li>
+                <div class="progress percent75"><span>75%</span></div>
+                <strong>Wordpress</strong>
+                </li>   
+                <li>
+                <div class="progress percent90"><span>90%</span></div>
+                <strong>Angular JS</strong>
+                </li>   
             </ul>
         </div>
 
-    </div>
+    </div> <!-- end about-content -->
 
     <div class="about-content about-content--buttons" style="margin-left:30%">
 
@@ -87,11 +59,12 @@
             <a href="#contact" class="btn btn--primary full-width">Contáctame</a>
         </div>
 
-    </div>
+    </div> <!-- end about-content buttons -->
+
     <div class="row about-content about-content--timeline">
 
         <div class="col-full text-center">
-            <h3>Mi experiencia laboral💼</h3>
+            <h3>My Work Experience.</h3>
         </div>
 
         <div class="col-six tab-full left">
@@ -100,30 +73,31 @@
                 <div class="timeline__block">
                     <div class="timeline__bullet"></div>
                     <div class="timeline__header">
-                        <p class="timeline__timeframe">Mayo/23 - Agosto/23 || Marzo/24 - Agosto/24</p>
-                        <h3>GT Motive Spain</h3>
-                        <h5>Desarrolador de SoftWare</h5>
+                        <p class="timeline__timeframe">July 2015 - Present</p>
+                        <h3>Awesome Studio</h3>
+                        <h5>Lead Designer</h5>
                     </div>
                     <div class="timeline__desc">
                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                     </div>
-                </div>
+                </div> <!-- end timeline__block -->
 
                 <div class="timeline__block">
                     <div class="timeline__bullet"></div>
                     <div class="timeline__header">
-                        <p class="timeline__timeframe">Desde septiembre 2024</p>
-                        <h3>Clavei</h3>
-                        <h5>Desarrolador de SoftWare</h5>
+                        <p class="timeline__timeframe">July 2014 - June 2015</p>
+                        <h3>Super Cool Agency</h3>
+                        <h5>Front-end Developer</h5>
                     </div>
                     <div class="timeline__desc">	
                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
                     </div>
-                </div>
+                </div> <!-- end timeline__block -->
 
-            </div>
-        </div>
-        <!--<div class="col-six tab-full right">
+            </div> <!-- end timeline -->
+        </div> <!-- end left -->
+
+        <div class="col-six tab-full right">
             <div class="timeline">
 
                 <div class="timeline__block">
@@ -136,7 +110,8 @@
                     <div class="timeline__desc">
                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
                     </div>
-                </div>  end timeline__block
+                </div> <!-- end timeline__block -->
+
                 <div class="timeline__block">
                     <div class="timeline__bullet"></div>
                     <div class="timeline__header">
@@ -147,11 +122,11 @@
                     <div class="timeline__desc">
                         <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
                     </div>
-                </div> end timeline__block
+                </div> <!-- end timeline__block -->
 
-            </div>
-        </div>
-        -->
+            </div> <!-- end timeline -->
+        </div> <!-- end right -->
+
     </div> <!-- end about-content timeline -->
 
 </section> 
